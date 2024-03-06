@@ -16,7 +16,7 @@ function stopTimer() {
 }
 
 // Обработчик события для кнопки "play-button"
-document.getElementById("play-button").addEventListener("click", function() {
+document.getElementById("b").addEventListener("click", function() {
   console.log("Привет, это сообщение в консоль!");
   startTimer(); // начинаем отсчет времени при клике на кнопку
 });
